@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.fragment.AddBookFragment">
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaul_view_5x"
+        android:layout_marginHorizontal="@dimen/defaul_view_4x"
+        android:background="@drawable/rectangle_edittext"
+        android:padding="@dimen/defaul_view_3x"
+        android:hint="@string/label_hint_title"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/varela"
+        android:inputType="text|textCapSentences"/>
+
+    <EditText
+        android:id="@+id/edtWriter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaul_view_5x"
+        android:layout_marginHorizontal="@dimen/defaul_view_4x"
+        android:background="@drawable/rectangle_edittext"
+        android:padding="@dimen/defaul_view_3x"
+        android:hint="@string/label_hint_writer"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/varela"
+        android:inputType="text|textCapSentences"/>
+
+    <EditText
+        android:id="@+id/edtYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/defaul_view_5x"
+        android:layout_marginHorizontal="@dimen/defaul_view_4x"
+        android:background="@drawable/rectangle_edittext"
+        android:padding="@dimen/defaul_view_3x"
+        android:hint="@string/label_hint_year"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/varela"
+        android:inputType="text|textCapSentences"/>
+
+    <RelativeLayout
+        android:id="@+id/viewImage"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangle_btn_ligth"
+        android:layout_marginHorizontal="@dimen/defaul_view_4x"
+        android:layout_marginBottom="@dimen/defaul_view_5x">
+
+        <ImageView
+            android:id="@+id/imgGallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imgAddIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_plus"/>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSave"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/defaul_view_6x"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_btn"
+        android:text="@string/label_btn_save"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/varela"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_list">
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.derinsezgin.artbook.ui.fragment.ListFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_list_book" />
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.derinsezgin.artbook.ui.fragment.AddBookFragment"
+        android:label="@string/menu_add"
+        tools:layout="@layout/fragment_add_book" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.derinsezgin.artbook.ui.fragment.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

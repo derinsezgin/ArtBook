@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ArtBook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_list">Kitaplarım</string>
+    <string name="menu_add">Kitap Ekle</string>
+    <string name="menu_about">Hakkımızda</string>
+
+    <string name="label_network_error">Internet bağlantınızda bir problem var.</string>
+    <string name="label_auth_error">Giriş yapılırken bir sorun oluştu, lütfen daha sonra tekrar deneyiniz.</string>
+    <string name="label_dialog_questions">İçeriği silmek istedinize emin misiniz ?</string>
+    <string name="label_dialog_yes">Evet</string>
+    <string name="label_dialog_no">Hayır</string>
+
+    <string name="label_question">Veri Kaynağını Seçiniz</string>
+    <string name="label_service">WebdDB\'den Oku</string>
+    <string name="label_local">LokalDB\'den Oku</string>
+    <string name="label_share">Paylaş</string>
+    <string name="label_hint_title">Başlık</string>
+    <string name="label_hint_writer">Yazar Adı</string>
+    <string name="label_hint_year">Yılı</string>
+    <string name="label_btn_add_image">Görsel Ekle</string>
+    <string name="label_btn_save">Kitabı Kaydet</string>
+    <string name="label_valitation">Gerekli</string>
+    <string name="label_upload_loading">Lütfen Bekleyiniz...</string>
+    <string name="label_empty_book_list">Henüz ekli hiç bir kitabınız yoktur.</string>
+    <string name="label_add_book_success">Başarıyla eklendi</string>
+    <string name="label_delete_book_success">Başarıyla silindi</string>
+    <string name="title_activity_book_detail">Detay Sayfası</string>
+</resources>

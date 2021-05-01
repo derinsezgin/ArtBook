@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/defaul_view_4x"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="@dimen/defaul_view_3x">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_question"
+                android:textSize="20dp"
+                android:layout_margin="@dimen/defaul_view_4x"
+                android:textColor="@color/black"
+                android:fontFamily="@font/varela"/>
+
+            <LinearLayout
+                android:id="@+id/lineerView"
+                android:layout_below="@id/tvHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/defaul_view_1x"
+                android:layout_marginBottom="@dimen/defaul_view_4x"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnService"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/rectangle_btn"
+                    android:layout_marginVertical="@dimen/defaul_view_2x"
+                    android:layout_marginHorizontal="@dimen/defaul_view_1x"
+                    android:textColor="@color/white"
+                    android:text="@string/label_service"
+                    android:fontFamily="@font/varela"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnLocal"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/rectangle_btn_ligth"
+                    android:layout_marginVertical="@dimen/defaul_view_2x"
+                    android:layout_marginHorizontal="@dimen/defaul_view_1x"
+                    android:textColor="@color/black"
+                    android:text="@string/label_local"
+                    android:fontFamily="@font/varela"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

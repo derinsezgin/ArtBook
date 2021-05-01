@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621937611786",
+    "project_id": "artbook-34b20",
+    "storage_bucket": "artbook-34b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621937611786:android:2ac7388fd2306fe18e3bf3",
+        "android_client_info": {
+          "package_name": "com.derinsezgin.artbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621937611786-ck40rft256iumjjq4mdubqu3gi7tr830.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqyLVwcq1ATmn57WZxwRoz7Wo7Rqf7h5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621937611786-ck40rft256iumjjq4mdubqu3gi7tr830.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
